@@ -1,1 +1,86 @@
 
+
+body{
+    font-family: "Zain", sans-serif;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(180deg, #834BFF, #387AFF);
+    border-radius: 170px;
+    margin-left: 5px;
+}
+
+.logo-Name {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+
+.menu-Text {
+    font-size: 18px;
+    font-weight: medium;
+    color:#9E9EA5
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 30px;
+    height: 30px;
+    background: #834BFF;
+    border-radius: 170px;
+}
+
+.profile-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background: linear-gradient(90deg, #ffffff, #b08efa);
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.profile-name p {
+    font-family: "Zain", sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
